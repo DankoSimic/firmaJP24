@@ -26,4 +26,8 @@ create table sudjeluje (
 alter table sudjeluje add foreign key (projekt) references projekt (id);
 alter table sudjeluje add foreign key (programer) references programer (id);
 
-insert into projekt (naziv, cijena) values ('test', 2000.00)
+insert into projekt (naziv, cijena) values 
+('test', 2000.00),
+('pogon', 5000.00),
+('nadzor', 9650.99)
+;
