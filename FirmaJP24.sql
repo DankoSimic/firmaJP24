@@ -23,4 +23,5 @@ create table sudjeluje (
 	datum_kraja datetime
 );
 
-alter table sudjeluje
+alter table sudjeluje add foreign key (projekt) references projekt (id);
+alter table sudjeluje add foreign key (programer) references programer (id);
