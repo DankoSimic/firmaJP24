@@ -31,3 +31,6 @@ insert into projekt (naziv, cijena) values
 ('pogon', 5000.00),
 ('nadzor', 9650.99)
 ;
+
+insert into programer (ime, prezime, datum_rodjenja, placa) values
+('Charles','Luciano', '1980-03-21', 8500.00);
